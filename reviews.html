@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>수강 후기 — SpeakUp English</title>
+  <meta name="description" content="회화, 비즈니스, 시험 대비, 주니어 수강생들의 생생한 SpeakUp English 후기를 카테고리별로 확인해 보세요." />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">본문으로 바로가기</a>
+
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="index.html" class="logo">
+        <span class="logo__mark" aria-hidden="true">S</span>
+        <span class="logo__text">SpeakUp<em>English</em></span>
+      </a>
+
+      <nav class="nav" id="nav" aria-label="주요 메뉴">
+        <ul class="nav__list">
+          <li><a href="courses.html" class="nav__link">강의</a></li>
+          <li><a href="how-it-works.html" class="nav__link">학습 방식</a></li>
+          <li><a href="teachers.html" class="nav__link">강사진</a></li>
+          <li><a href="reviews.html" class="nav__link is-active" aria-current="page">수강 후기</a></li>
+          <li><a href="pricing.html" class="nav__link">수강료</a></li>
+          <li><a href="faq.html" class="nav__link">FAQ</a></li>
+        </ul>
+        <a href="apply.html" class="btn btn--primary btn--sm nav__cta">무료 레벨테스트</a>
+      </nav>
+
+      <button class="nav-toggle" id="navToggle" aria-label="메뉴 열기" aria-expanded="false" aria-controls="nav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="page-hero" style="background:var(--bg-dark);">
+      <div class="container">
+        <p class="eyebrow" style="color:var(--brand-300);">REVIEWS</p>
+        <h1 class="page-hero__title" style="color:#fff;">수강생들의 이야기</h1>
+        <p class="page-hero__desc" style="color:#a9b2d4;">카테고리를 선택하면 해당 강의를 수강한 분들의 후기만 모아볼 수 있습니다.</p>
+        <p class="page-hero__crumb" style="color:#7f89ad;"><a href="index.html" style="color:var(--brand-300);">홈</a> / 수강 후기</p>
+      </div>
+    </section>
+
+    <section class="section section--dark">
+      <div class="container">
+        <div class="filters reveal" id="reviewFilters" role="tablist" aria-label="후기 분류">
+          <button class="filter is-active" data-filter="all" role="tab" aria-selected="true">전체</button>
+          <button class="filter" data-filter="speaking" role="tab" aria-selected="false">회화</button>
+          <button class="filter" data-filter="business" role="tab" aria-selected="false">비즈니스</button>
+          <button class="filter" data-filter="exam" role="tab" aria-selected="false">시험대비</button>
+          <button class="filter" data-filter="kids" role="tab" aria-selected="false">주니어</button>
+        </div>
+
+        <div class="review-grid reveal" id="reviewGrid">
+          <article class="review-card" data-category="business">
+            <p class="quote__stars" aria-label="별점 5점">★★★★★</p>
+            <p class="quote__text">“회의에서 말할 타이밍을 놓치는 게 늘 스트레스였어요. 롤플레이로 같은 상황을 열 번 넘게 연습하니 이제는 먼저 의견을 냅니다. 10주 만에 생긴 변화예요.”</p>
+            <p class="quote__who"><strong>이현우</strong> · 실무 비즈니스 영어 수료</p>
+          </article>
+          <article class="review-card" data-category="speaking">
+            <p class="quote__stars" aria-label="별점 5점">★★★★★</p>
+            <p class="quote__text">“영어로 말하려면 머릿속에서 문장을 다 만들어야 했는데, 지금은 그냥 나옵니다. 피드백 노트가 정말 도움이 많이 됐어요. 복습이 습관이 됐습니다.”</p>
+            <p class="quote__who"><strong>정다은</strong> · 8주 기초 회화 수료</p>
+          </article>
+          <article class="review-card" data-category="exam">
+            <p class="quote__stars" aria-label="별점 4점">★★★★☆</p>
+            <p class="quote__text">“토익 스피킹 레벨 5에서 7로 올랐습니다. 유형별 템플릿이 명확해서 4주 동안 뭘 해야 하는지 헤매지 않았어요.”</p>
+            <p class="quote__who"><strong>최민석</strong> · 토익 스피킹 단기 완성 수료</p>
+          </article>
+          <article class="review-card" data-category="kids">
+            <p class="quote__stars" aria-label="별점 5점">★★★★★</p>
+            <p class="quote__text">“아이가 수업 시간을 기다립니다. 매주 오는 학부모 리포트로 뭘 배웠는지 확인할 수 있어서 믿고 맡기고 있어요.”</p>
+            <p class="quote__who"><strong>윤소라</strong> · 주니어 파닉스 학부모</p>
+          </article>
+          <article class="review-card" data-category="speaking">
+            <p class="quote__stars" aria-label="별점 5점">★★★★★</p>
+            <p class="quote__text">“주제별 토론 스피킹을 듣고 나서 뉴스 기사에 대해 제 의견을 논리적으로 말할 수 있게 됐어요. 소그룹이라 서로 자극도 됩니다.”</p>
+            <p class="quote__who"><strong>한지민</strong> · 주제별 토론 스피킹 수료</p>
+          </article>
+          <article class="review-card" data-category="business">
+            <p class="quote__stars" aria-label="별점 5점">★★★★★</p>
+            <p class="quote__text">“발표 울렁증이 심했는데, 3회 리허설을 거치고 나니 실제 발표에서 훨씬 자신감이 붙었습니다. Q&amp;A 대응까지 준비해준 게 최고였어요.”</p>
+            <p class="quote__who"><strong>오세훈</strong> · 영어 프레젠테이션 마스터 수료</p>
+          </article>
+          <article class="review-card" data-category="exam">
+            <p class="quote__stars" aria-label="별점 4점">★★★★☆</p>
+            <p class="quote__text">“오픽 IH를 목표로 시작했는데, 모의고사 위주 훈련 덕분에 실전 감각을 키울 수 있었습니다. 코치님 피드백이 구체적이라 좋았어요.”</p>
+            <p class="quote__who"><strong>서지훈</strong> · 시험 대비 코스 수료</p>
+          </article>
+          <article class="review-card" data-category="kids">
+            <p class="quote__stars" aria-label="별점 5점">★★★★★</p>
+            <p class="quote__text">"놀이처럼 배우다 보니 아이가 영어를 숙제로 느끼지 않아요. 파닉스도 확실히 잡히고 있습니다."</p>
+            <p class="quote__who"><strong>강수진</strong> · 주니어 파닉스 학부모</p>
+          </article>
+          <article class="review-card" data-category="speaking">
+            <p class="quote__stars" aria-label="별점 5점">★★★★★</p>
+            <p class="quote__text">“왕초보였는데 8주 만에 외국인과 짧은 대화 정도는 가능해졌어요. 첫 수업 환불 보장이 있어서 부담 없이 시작할 수 있었습니다.”</p>
+            <p class="quote__who"><strong>배유리</strong> · 8주 기초 회화 수료</p>
+          </article>
+          <article class="review-card" data-category="business">
+            <p class="quote__stars" aria-label="별점 5점">★★★★★</p>
+            <p class="quote__text">“이직 준비하면서 영문 이력서와 인터뷰 영어를 함께 준비했습니다. 실제 인터뷰에서 나온 질문 유형과 비슷해서 큰 도움이 됐어요.”</p>
+            <p class="quote__who"><strong>남궁현</strong> · 실무 비즈니스 영어 수료</p>
+          </article>
+        </div>
+
+        <p class="review-empty" id="reviewEmpty" hidden>해당 분류의 후기가 아직 없습니다.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <a href="index.html" class="logo logo--light">
+          <span class="logo__mark" aria-hidden="true">S</span>
+          <span class="logo__text">SpeakUp<em>English</em></span>
+        </a>
+        <p class="footer__tag">하루 40분, 진짜 말이 트이는 영어</p>
+      </div>
+
+      <nav class="footer__cols" aria-label="사이트 정보">
+        <div class="footer__col">
+          <h3>강의</h3>
+          <ul>
+            <li><a href="courses.html">기초 회화</a></li>
+            <li><a href="courses.html">비즈니스 영어</a></li>
+            <li><a href="courses.html">시험 대비</a></li>
+            <li><a href="courses.html">주니어</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h3>안내</h3>
+          <ul>
+            <li><a href="how-it-works.html">학습 방식</a></li>
+            <li><a href="pricing.html">수강료</a></li>
+            <li><a href="faq.html">자주 묻는 질문</a></li>
+            <li><a href="apply.html">레벨테스트</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h3>문의</h3>
+          <ul>
+            <li>1544-0000</li>
+            <li>hello@speakup-english.kr</li>
+            <li>평일 10:00–19:00</li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+    <div class="container footer__bottom">
+      <p>© 2026 SpeakUp English. 데모용 샘플 사이트입니다.</p>
+      <ul class="footer__legal">
+        <li><a href="#">이용약관</a></li>
+        <li><a href="#">개인정보처리방침</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <button class="to-top" id="toTop" aria-label="맨 위로" hidden>↑</button>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

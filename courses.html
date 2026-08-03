@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>전체 강의 — SpeakUp English</title>
+  <meta name="description" content="기초 회화부터 비즈니스, 시험 대비, 주니어까지. SpeakUp English의 전체 강의 6종과 주차별 커리큘럼, 담당 코치를 확인하세요." />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">본문으로 바로가기</a>
+
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="index.html" class="logo">
+        <span class="logo__mark" aria-hidden="true">S</span>
+        <span class="logo__text">SpeakUp<em>English</em></span>
+      </a>
+
+      <nav class="nav" id="nav" aria-label="주요 메뉴">
+        <ul class="nav__list">
+          <li><a href="courses.html" class="nav__link is-active" aria-current="page">강의</a></li>
+          <li><a href="how-it-works.html" class="nav__link">학습 방식</a></li>
+          <li><a href="teachers.html" class="nav__link">강사진</a></li>
+          <li><a href="reviews.html" class="nav__link">수강 후기</a></li>
+          <li><a href="pricing.html" class="nav__link">수강료</a></li>
+          <li><a href="faq.html" class="nav__link">FAQ</a></li>
+        </ul>
+        <a href="apply.html" class="btn btn--primary btn--sm nav__cta">무료 레벨테스트</a>
+      </nav>
+
+      <button class="nav-toggle" id="navToggle" aria-label="메뉴 열기" aria-expanded="false" aria-controls="nav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="page-hero">
+      <div class="container">
+        <p class="eyebrow">COURSES</p>
+        <h1 class="page-hero__title">목표에 맞는 강의를 고르세요</h1>
+        <p class="page-hero__desc">모든 강의는 레벨 진단 후 난이도를 조정해 드립니다. 강의별 담당 코치와 주차별 커리큘럼을 확인해 보세요.</p>
+        <p class="page-hero__crumb"><a href="index.html">홈</a> / 강의</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="filters reveal" role="tablist" aria-label="강의 분류">
+          <button class="filter is-active" data-filter="all" role="tab" aria-selected="true">전체</button>
+          <button class="filter" data-filter="speaking" role="tab" aria-selected="false">회화</button>
+          <button class="filter" data-filter="business" role="tab" aria-selected="false">비즈니스</button>
+          <button class="filter" data-filter="exam" role="tab" aria-selected="false">시험 대비</button>
+          <button class="filter" data-filter="kids" role="tab" aria-selected="false">주니어</button>
+        </div>
+
+        <div class="course-grid" id="courseGrid">
+          <article class="course reveal" data-category="speaking">
+            <div class="course__thumb course__thumb--a">
+              <span class="course__level">Lv. 1–3</span>
+              <span class="course__emoji" aria-hidden="true">💬</span>
+            </div>
+            <div class="course__body">
+              <p class="course__tag">회화</p>
+              <h3 class="course__title">입이 트이는 8주 기초 회화</h3>
+              <p class="course__desc">인사, 소개, 일상 묘사까지. 문장 만들기 두려움을 없애는 첫 단계 코스.</p>
+              <ul class="course__meta">
+                <li>주 2회 · 25분</li>
+                <li>1:1 수업</li>
+                <li>전 8주</li>
+              </ul>
+              <p class="course__teacher-tag">👩‍🏫 담당 코치 · <a href="teachers.html#teacher-emma">Emma Wilson</a></p>
+              <button class="course__curric-btn" data-curric-toggle="curric-1" aria-expanded="false">커리큘럼 보기 ▼</button>
+              <div class="course__curric" id="curric-1">
+                <ul>
+                  <li>1–2주차 · 자기소개 &amp; 인사 표현</li>
+                  <li>3–4주차 · 하루 일과 묘사, 중간 점검</li>
+                  <li>5–6주차 · 의견 말하기, 되묻기 표현</li>
+                  <li>7–8주차 · 상황극 롤플레이, 최종 테스트</li>
+                </ul>
+              </div>
+              <div class="course__foot">
+                <p class="course__price"><s>220,000</s><strong>176,000원</strong></p>
+                <a href="apply.html" class="btn btn--soft btn--sm">신청하기</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="course reveal" data-category="speaking" data-reveal-delay="80">
+            <div class="course__thumb course__thumb--b">
+              <span class="course__level">Lv. 4–6</span>
+              <span class="course__emoji" aria-hidden="true">🎙️</span>
+            </div>
+            <div class="course__body">
+              <p class="course__tag">회화</p>
+              <h3 class="course__title">주제별 토론 스피킹</h3>
+              <p class="course__desc">뉴스·문화·커리어 주제로 의견을 논리적으로 전달하는 훈련.</p>
+              <ul class="course__meta">
+                <li>주 2회 · 40분</li>
+                <li>1:2 소그룹</li>
+                <li>전 12주</li>
+              </ul>
+              <p class="course__teacher-tag">👨‍🏫 담당 코치 · <a href="teachers.html#teacher-ryan">Ryan Adams</a></p>
+              <button class="course__curric-btn" data-curric-toggle="curric-2" aria-expanded="false">커리큘럼 보기 ▼</button>
+              <div class="course__curric" id="curric-2">
+                <ul>
+                  <li>1–3주차 · 시사 주제 도입, 어휘 확장</li>
+                  <li>4–6주차 · 찬반 토론 구조 익히기</li>
+                  <li>7–9주차 · 커리어/문화 주제 심화 토론</li>
+                  <li>10–12주차 · 모의 토론 &amp; 피드백</li>
+                </ul>
+              </div>
+              <div class="course__foot">
+                <p class="course__price"><strong>245,000원</strong></p>
+                <a href="apply.html" class="btn btn--soft btn--sm">신청하기</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="course reveal" data-category="business" data-reveal-delay="160">
+            <div class="course__thumb course__thumb--c">
+              <span class="course__level">Lv. 5+</span>
+              <span class="course__emoji" aria-hidden="true">💼</span>
+            </div>
+            <div class="course__body">
+              <p class="course__tag">비즈니스</p>
+              <h3 class="course__title">실무 비즈니스 영어</h3>
+              <p class="course__desc">이메일, 미팅, 협상까지. 현업 출신 코치와 함께하는 상황별 롤플레이.</p>
+              <ul class="course__meta">
+                <li>주 2회 · 40분</li>
+                <li>1:1 수업</li>
+                <li>전 10주</li>
+              </ul>
+              <p class="course__teacher-tag">👩‍💼 담당 코치 · <a href="teachers.html#teacher-jisoo">김지수</a></p>
+              <button class="course__curric-btn" data-curric-toggle="curric-3" aria-expanded="false">커리큘럼 보기 ▼</button>
+              <div class="course__curric" id="curric-3">
+                <ul>
+                  <li>1–2주차 · 비즈니스 이메일 표현</li>
+                  <li>3–5주차 · 화상 미팅 진행 &amp; 참여</li>
+                  <li>6–8주차 · 협상/설득 롤플레이</li>
+                  <li>9–10주차 · 실전 모의 미팅, 리포트</li>
+                </ul>
+              </div>
+              <div class="course__foot">
+                <p class="course__price"><strong>320,000원</strong></p>
+                <a href="apply.html" class="btn btn--soft btn--sm">신청하기</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="course reveal" data-category="business">
+            <div class="course__thumb course__thumb--d">
+              <span class="course__level">Lv. 6+</span>
+              <span class="course__emoji" aria-hidden="true">📊</span>
+            </div>
+            <div class="course__body">
+              <p class="course__tag">비즈니스</p>
+              <h3 class="course__title">영어 프레젠테이션 마스터</h3>
+              <p class="course__desc">스크립트 작성부터 Q&amp;A 대응까지, 발표 전 과정을 3회 리허설로 완성.</p>
+              <ul class="course__meta">
+                <li>주 1회 · 60분</li>
+                <li>1:1 수업</li>
+                <li>전 6주</li>
+              </ul>
+              <p class="course__teacher-tag">👩‍💼 담당 코치 · <a href="teachers.html#teacher-jisoo">김지수</a></p>
+              <button class="course__curric-btn" data-curric-toggle="curric-4" aria-expanded="false">커리큘럼 보기 ▼</button>
+              <div class="course__curric" id="curric-4">
+                <ul>
+                  <li>1주차 · 발표 구조 &amp; 스크립트 작성</li>
+                  <li>2–3주차 · 슬라이드별 전달력 훈련</li>
+                  <li>4–5주차 · 리허설 2회 + 피드백</li>
+                  <li>6주차 · 최종 리허설 &amp; Q&amp;A 대응</li>
+                </ul>
+              </div>
+              <div class="course__foot">
+                <p class="course__price"><strong>290,000원</strong></p>
+                <a href="apply.html" class="btn btn--soft btn--sm">신청하기</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="course reveal" data-category="exam" data-reveal-delay="80">
+            <div class="course__thumb course__thumb--e">
+              <span class="course__level">목표 900+</span>
+              <span class="course__emoji" aria-hidden="true">📚</span>
+            </div>
+            <div class="course__body">
+              <p class="course__tag">시험 대비</p>
+              <h3 class="course__title">토익 스피킹 단기 완성</h3>
+              <p class="course__desc">유형별 템플릿과 실전 모의고사 6회. 4주 만에 레벨 업을 노립니다.</p>
+              <ul class="course__meta">
+                <li>주 3회 · 30분</li>
+                <li>1:1 수업</li>
+                <li>전 4주</li>
+              </ul>
+              <p class="course__teacher-tag">👨‍🏫 담당 코치 · <a href="teachers.html#teacher-ryan">Ryan Adams</a></p>
+              <button class="course__curric-btn" data-curric-toggle="curric-5" aria-expanded="false">커리큘럼 보기 ▼</button>
+              <div class="course__curric" id="curric-5">
+                <ul>
+                  <li>1주차 · 유형 분석 &amp; 템플릿 습득</li>
+                  <li>2주차 · 모의고사 3회 + 첨삭</li>
+                  <li>3주차 · 약점 유형 집중 훈련</li>
+                  <li>4주차 · 모의고사 3회 + 최종 점검</li>
+                </ul>
+              </div>
+              <div class="course__foot">
+                <p class="course__price"><s>210,000</s><strong>168,000원</strong></p>
+                <a href="apply.html" class="btn btn--soft btn--sm">신청하기</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="course reveal" data-category="kids" data-reveal-delay="160">
+            <div class="course__thumb course__thumb--f">
+              <span class="course__level">초등 3–6</span>
+              <span class="course__emoji" aria-hidden="true">🧩</span>
+            </div>
+            <div class="course__body">
+              <p class="course__tag">주니어</p>
+              <h3 class="course__title">주니어 파닉스 &amp; 스토리</h3>
+              <p class="course__desc">소리·리딩·말하기를 놀이처럼. 학부모 리포트를 매주 발송합니다.</p>
+              <ul class="course__meta">
+                <li>주 2회 · 30분</li>
+                <li>1:1 수업</li>
+                <li>전 12주</li>
+              </ul>
+              <p class="course__teacher-tag">👩‍🏫 담당 코치 · <a href="teachers.html#teacher-hayeon">박하연</a></p>
+              <button class="course__curric-btn" data-curric-toggle="curric-6" aria-expanded="false">커리큘럼 보기 ▼</button>
+              <div class="course__curric" id="curric-6">
+                <ul>
+                  <li>1–4주차 · 파닉스 기초 &amp; 소리 놀이</li>
+                  <li>5–8주차 · 짧은 스토리 읽기 &amp; 말하기</li>
+                  <li>9–11주차 · 그림책 발표하기</li>
+                  <li>12주차 · 미니 발표회 &amp; 학부모 리포트</li>
+                </ul>
+              </div>
+              <div class="course__foot">
+                <p class="course__price"><strong>228,000원</strong></p>
+                <a href="apply.html" class="btn btn--soft btn--sm">신청하기</a>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <p class="course-empty" id="courseEmpty" hidden>해당 분류의 강의가 준비 중입니다.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <a href="index.html" class="logo logo--light">
+          <span class="logo__mark" aria-hidden="true">S</span>
+          <span class="logo__text">SpeakUp<em>English</em></span>
+        </a>
+        <p class="footer__tag">하루 40분, 진짜 말이 트이는 영어</p>
+      </div>
+
+      <nav class="footer__cols" aria-label="사이트 정보">
+        <div class="footer__col">
+          <h3>강의</h3>
+          <ul>
+            <li><a href="courses.html">기초 회화</a></li>
+            <li><a href="courses.html">비즈니스 영어</a></li>
+            <li><a href="courses.html">시험 대비</a></li>
+            <li><a href="courses.html">주니어</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h3>안내</h3>
+          <ul>
+            <li><a href="how-it-works.html">학습 방식</a></li>
+            <li><a href="pricing.html">수강료</a></li>
+            <li><a href="faq.html">자주 묻는 질문</a></li>
+            <li><a href="apply.html">레벨테스트</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h3>문의</h3>
+          <ul>
+            <li>1544-0000</li>
+            <li>hello@speakup-english.kr</li>
+            <li>평일 10:00–19:00</li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+    <div class="container footer__bottom">
+      <p>© 2026 SpeakUp English. 데모용 샘플 사이트입니다.</p>
+      <ul class="footer__legal">
+        <li><a href="#">이용약관</a></li>
+        <li><a href="#">개인정보처리방침</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <button class="to-top" id="toTop" aria-label="맨 위로" hidden>↑</button>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
